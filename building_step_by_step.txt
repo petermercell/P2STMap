@@ -1,0 +1,11 @@
+cd /Users/g/Downloads/000_LETS_GO-3/P2STMap/MAC/P2STMap_16.0v6
+
+rm -rf build && mkdir build && cd build
+
+cmake .. -DNUKE_VERSION=16.0v6 -DCMAKE_INSTALL_PREFIX=~/.nuke
+
+make 
+
+
+
+
